@@ -20,3 +20,5 @@ window.onload = function() {
 ```
 3. Set the screen to the size of mobile phone.
 4. Scroll.
+
+This effect in Figma: https://www.figma.com/proto/vDDfp0AWqUD8FyNDNIl9bt/Untitled?node-id=8%3A15&scaling=scale-down
