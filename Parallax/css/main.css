@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Kalam', cursive;
+  background-color: #010C1C;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  padding: 1em;
+  height: 100vh;
+}
+
+.container:first-child {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 10% 40% auto;
+      grid-template-rows: 10% 40% auto;
+}
+
+.container h1 {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  font-weight: normal;
+}
+
+.container nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container nav .logo {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: white;
+  font-weight: normal;
+}
+
+.container h2 {
+  color: white;
+  font-weight: normal;
+  font-size: 3em;
+}
+
+.container p {
+  color: white;
+  font-weight: normal;
+  font-size: 1em;
+  padding: 2em;
+}
+
+.ocean, .algae {
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.ocean {
+  top: 0;
+}
+
+.algae {
+  top: 60%;
+}
+/*# sourceMappingURL=main.css.map */

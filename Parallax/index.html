@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parallax</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="#" class="logo">Aquarium</a>
+                <img src="img/menu.svg" alt="menu">
+            </nav>
+        </header>
+
+        <h1 class="lax" data-lax-translate-y="0 0, 400 -400" data-lax-opacity="0 1, 150 0">Underwater world</h1>
+
+    </div>
+    <div class="container secondary lax" data-lax-translate-y="0 0, 400 -500" data-lax-opacity="1 0, 400 1">
+        <h2>Dive into</h2>
+        <p class="txt lax"  data-lax-scale='0 1, 300 1.2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto id architecto distinctio a maiores reprehenderit optio dolorum illum totam aperiam omnis nesciunt quia voluptates illo sed quas, sint soluta temporibus. Iusto id architecto distinctio a maiores reprehenderit optio dolorum illum totam aperiam omnis nesciunt quia voluptates illo sed quas, sint soluta temporibus.</p>
+    </div>
+
+    <img src="img/ocean.png" alt="ocean" class="ocean lax" data-lax-translate-y="0 1, 400 -100">
+    <img src="img/algae.png" alt="algae" class="algae lax"  data-lax-translate-y="0 1, 400 -250">
+    <script src="https://cdn.jsdelivr.net/npm/lax.js" ></script>
+    <script src="index.js"></script>
+</body>
+</html>
